@@ -28,6 +28,10 @@ header {
     padding: 0 1.5rem;
 }
 
+main {
+    padding: 0 1.5rem;
+}
+
 header > div {
     height: 100vh;
 }
@@ -44,10 +48,6 @@ h1 , h2{
 
 h2 {
     font-size: 12vw;
-}
-
-main {
-    padding: 0 1.5rem;
 }
 
 p {
@@ -185,4 +185,24 @@ a {
     margin-top: 7rem;
     text-align: center;
     font-size: .9rem;
+}
+
+@media screen and (min-width: 520px) {
+    header,
+    main {
+        padding: 0 4rem;
+    }
+
+    h1 {
+        font-size: 13vw;
+    }
+
+    h2 {
+        font-size: 9vw;
+    }
+
+    footer {
+        padding: 0 4rem 2rem;
+    }
+
 }
