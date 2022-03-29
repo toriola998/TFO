@@ -4,11 +4,19 @@
     box-sizing: border-box;
 }
 
+:root {
+    --curly-fonts: 'Playfair Display', serif;
+    --normal-fonts: 'Poppins', sans-serif;
+}
+
 body {
     background-color: #000;
-    font-family: 'Playfair Display', serif;
     color: #fff;
     font-style: normal;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 .flex {
@@ -27,5 +35,19 @@ header > div {
 h1 {
     font-weight: 400;
     line-height: 1;
-    font-size: 3.5rem;
+    font-size: 15vw;
+    font-family: var(--curly-fonts);
+}
+
+main {
+    padding: 0 1.5rem;
+}
+
+#about p {
+    font-family: var(--normal-fonts);
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    font-size: .9rem;
+    line-height: 1.7;
+    color: #ccc;
 }
