@@ -97,9 +97,9 @@ main {
 #projectss img {
     width: 90%;
     height: auto;
-    position: absolute;
+    /*position: absolute;
     right: 0;
-    /*top: 10.3rem;*/
+    top: 10.3rem;*/
 }
 
 .about2 {
@@ -110,7 +110,7 @@ main {
 }
 
 footer {
-    padding: 0 1.5rem 6rem;
+    padding: 0 1.5rem 2rem;
     justify-content: center;
 }
 
@@ -146,5 +146,12 @@ a {
     color: #ccc;
     font-size: 1.5rem;
     margin-bottom: 1rem;
-    
+}
+
+.copyright {
+    font-family: var(--normal-fonts);
+    color: #ccc;
+    margin-top: 7rem;
+    text-align: center;
+    font-size: .9rem;
 }
