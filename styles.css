@@ -204,5 +204,21 @@ a {
     footer {
         padding: 0 4rem 2rem;
     }
+}
 
+@media screen and (min-width: 1000px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 6rem;
+        justify-content: center;
+    }  
+}
+
+@media screen and (min-width: 1200px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: 35% 35%;
+        gap: 8rem;
+    }       
 }
