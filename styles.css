@@ -35,17 +35,9 @@ main {
     justify-content: space-between;
 }
 
-/*.social-media {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    bottom: 0;
-    right: 0;
+.social-media {
+    display: none;
 }
-
-.social-media img {
-    width: 2rem;
-}*/
 
 .logo {
     line-height: 1;
@@ -53,7 +45,7 @@ main {
 }
 
 .hero {
-    height: 100vh;
+    height: 95vh;
 }
 
 h1 {
@@ -238,6 +230,31 @@ a {
 }
 
 @media screen and (min-width: 700px) {
+    .social-media {
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        bottom: 0;
+        right: -2rem;
+    }
+    
+    .social-media:after {
+        content: '';
+        background-color: #fff;
+        width: 96px;
+        height: 2px;
+        transform: rotate(90deg);
+        position: relative;
+        right: 2.2rem;
+        top: -3rem;
+        margin-top: 7rem;
+    }
+    
+    .social-media img {
+        width: 1.5rem;
+        margin-bottom: .6rem;
+    }
+
     h2 {
         font-size: 6vw;
     }
