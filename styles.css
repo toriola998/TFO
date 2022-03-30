@@ -76,6 +76,10 @@ p {
     padding: 2rem 0;
 }
 
+.grid-container > div {
+    margin-bottom: 6rem;
+}
+
 .bg1 {
     background-color: #53b3cb;
 }
@@ -142,7 +146,7 @@ span {
 .about2 {
     font-size: 1.8rem;
     line-height: 1.4;
-    margin: 2rem 0 6rem;
+    margin: 1rem 0 9rem;
 }
 
 footer {
@@ -206,19 +210,59 @@ a {
     }
 }
 
+@media screen and (min-width: 700px) {
+    h2 {
+        font-size: 6vw;
+    }
+}
+
 @media screen and (min-width: 1000px) {
+    header,
+    main {
+        padding: 0 6rem;
+    }
+
+
+    #about p:nth-child(1) {
+        width: 40%;
+        margin-left: 28rem;
+    }
+
+    #about p:nth-child(2) {
+        width: 45%;
+        margin-right: auto;
+    }
+
+    #projectss h2 {
+        margin-bottom: 3rem;
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 4vw;
+    }
+
     .grid-container {
         display: grid;
         grid-template-columns: auto auto;
         gap: 6rem;
         justify-content: center;
-    }  
+    }
+    
+    .grid-container > div:nth-child(2),
+    .grid-container > div:nth-child(4) {
+        position: relative;
+        top: 6rem;
+    }
+
+    footer > div {
+        width: 50%;
+        margin: auto;
+    }
 }
 
 @media screen and (min-width: 1200px) {
     .grid-container {
-        display: grid;
         grid-template-columns: 35% 35%;
-        gap: 8rem;
     }       
 }
