@@ -35,6 +35,18 @@ main {
     justify-content: space-between;
 }
 
+/*.social-media {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    bottom: 0;
+    right: 0;
+}
+
+.social-media img {
+    width: 2rem;
+}*/
+
 .logo {
     line-height: 1;
     color: #fff;
