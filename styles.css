@@ -24,12 +24,20 @@ html {
     align-items: center;
 }
 
-header {
+.nav-top,
+header,
+main {
     padding: 0 1.5rem;
 }
 
-main {
-    padding: 0 1.5rem;
+.nav-top {
+    margin-top: 1rem;
+    justify-content: space-between;
+}
+
+.logo {
+    line-height: 1;
+    color: #fff;
 }
 
 header > div {
@@ -198,6 +206,7 @@ a {
 }
 
 @media screen and (min-width: 520px) {
+    .nav-top,
     header,
     main {
         padding: 0 4rem;
@@ -236,6 +245,7 @@ a {
 }
 
 @media screen and (min-width: 1000px) {
+    .nav-top,
     header,
     main {
         padding: 0 6rem;
