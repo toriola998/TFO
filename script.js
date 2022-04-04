@@ -14,11 +14,12 @@ ul.classList.toggle('show-lists')
 //    links.classList.remove('show-links');
 //});
 
-let navLinks = document.querySelectorAll('.nav-link');
+let navLinks = document.querySelectorAll('nav ul li');
 //event listener for each links
 navLinks.forEach(link => {  
   link.addEventListener('click', () => {
     links.classList.remove('show-links');
+    ul.classList.toggle('show-lists')
   }); 
 });
 
