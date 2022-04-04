@@ -30,6 +30,31 @@ main {
     padding: 0 1.5rem;
 }
 
+nav ul {
+    display: none;
+  }
+  
+  .links {
+    overflow: hidden;
+    height: 100vh;
+    width: 100%;
+    background-color: #FCC7C3;
+    position: fixed;
+    z-index: 10;
+    transition: 0.5s transform ease;
+    top: 0;
+    left: 0;
+    transform: translateX(-100vw);
+  }
+  
+  .show-links {
+    transform: translateX(0);
+  }
+
+  .show-lists {
+      display: block;
+  }
+
 .nav-top {
     margin-top: 1.5rem;
     justify-content: space-between;
