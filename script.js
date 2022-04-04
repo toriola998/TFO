@@ -10,9 +10,9 @@ ul.classList.toggle('show-lists')
 });
 
 //Close the side bar once the close icon gets clicked
-//closeIcon.addEventListener('click', function(){
-//    links.classList.remove('show-links');
-//});
+closeIcon.addEventListener('click', function(){
+    links.classList.remove('show-links');
+});
 
 let navLinks = document.querySelectorAll('nav ul li');
 //event listener for each links

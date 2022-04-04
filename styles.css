@@ -76,6 +76,12 @@ nav ul li a {
     display: block;
 }
 
+#close-icon {
+    position: absolute;
+    right: 2rem;
+    top: 2rem;
+}
+
 .social-media {
     display: none;
 }
