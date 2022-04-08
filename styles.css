@@ -419,6 +419,10 @@ footer span {
         margin: auto;
     }
 
+    h2 {
+        font-size: 3.4vw;
+    }
+
     .nav-top {
         margin-top: 1.5rem;
     }
