@@ -413,10 +413,7 @@ footer span {
 
 @media screen and (min-width: 1400px) {
     .nav-top,
-    header,
-    #about,
-    #projects,
-    .about2,
+    main,
     footer {
         max-width: 1330px;
         margin: auto;
@@ -426,10 +423,9 @@ footer span {
         margin-top: 1.5rem;
     }
 
-    /*#about {
-        margin-left: 75rem;
-        width: 20%;
-    }*/
+    #about {
+        margin: 0 auto 0 35rem;
+    }
 
     .about2 {
         margin: 15rem auto;
