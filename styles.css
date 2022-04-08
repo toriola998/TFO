@@ -327,8 +327,7 @@ footer span {
 
 @media screen and (min-width: 1000px) {
     .nav-top,
-    header,
-    main {
+    header{
         padding: 0 6rem;
     }
 
@@ -361,7 +360,7 @@ footer span {
         display: grid;
         grid-template-columns: auto auto;
         row-gap: 6rem;
-        column-gap: 5rem;
+        column-gap: 7rem;
         justify-content: center;
     }
 
