@@ -403,10 +403,39 @@ footer span {
     }
     
     .about2 {
-        padding:0 13rem;
+        padding: 0 13rem;
     }
 
     footer > div {
         width: 50%;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .nav-top,
+    header,
+    #about,
+    #projects,
+    .about2,
+    footer {
+        max-width: 1330px;
+        margin: auto;
+    }
+
+    /*#about {
+        margin-left: 75rem;
+        width: 20%;
+    }*/
+
+    .about2 {
+        margin: 15rem auto;
+    }
+
+    .hero {
+        justify-content: center;
+    }
+
+    h1 {
+        font-size: 200px;
     }
 }
