@@ -422,6 +422,10 @@ footer span {
         margin: auto;
     }
 
+    .nav-top {
+        margin-top: 1.5rem;
+    }
+
     /*#about {
         margin-left: 75rem;
         width: 20%;
