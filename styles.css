@@ -131,6 +131,7 @@ header {
 
 .shape {
     position: absolute;
+    z-index: -999999;
 }
 
 .shape1 {
@@ -139,31 +140,28 @@ header {
 }
 
 .shape2 {
-    right: 15rem;
+    left: 9rem;
     top: 27rem;
-    z-index: -999999;
 }
 
 .shape3 {
-    right: 40rem;
+    right: 23rem;
     top: 5rem;
-    z-index: -999999;
 }
 
 .shape4 {
     right: 5rem;
     top: 8rem;
-    z-index: -999999;
 }
 
 .shape5 {
-    left: 5rem;
-    bottom: 4rem;
-    z-index: -999999;
+    left: -3rem;
+    bottom: -2rem;
 }
 
-
-
+#about {
+    scroll-margin-top: 3rem;
+}
 /***************STYLING FOR PROJECT SECTION STARTS*************/
 #projects {
     padding: 6rem 0;
@@ -246,8 +244,6 @@ header {
     width: 90%;
     height: auto;
 }
-
-
 /***************STYLING FOR 2nd ABUOT SECTION STARTS*************/
 .about2 {
     font-size: 1.8rem;
@@ -258,15 +254,6 @@ header {
 #hashnode a{
     color: #2962ff;
 }
-
-#netflix {
-    color: #E50914;
-}
-
-#youtube {
-    color: #FF0000;
-}
-
 /***************STYLING FOR FOOTER STARTS*************/
 footer {
     padding: 0 1.5rem 2rem;
@@ -396,6 +383,20 @@ footer span {
         padding: 0 6rem;
     }
 
+    .shape2 {
+        right: 15rem;
+        left: initial;
+    }
+    
+    .shape3 {
+        right: 40rem;
+    }
+
+    .shape5 {
+        left: 5rem;
+        bottom: 2rem;
+    }
+    
     #about {
         width: 50%;
         margin-left: 23rem;
