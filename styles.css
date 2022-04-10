@@ -125,6 +125,45 @@ p {
     color: #fff;
 }
 
+header {
+    position: relative;
+}
+
+.shape {
+    position: absolute;
+}
+
+.shape1 {
+    left: 2rem;
+    top: 7rem;
+}
+
+.shape2 {
+    right: 15rem;
+    top: 27rem;
+    z-index: -999999;
+}
+
+.shape3 {
+    right: 40rem;
+    top: 5rem;
+    z-index: -999999;
+}
+
+.shape4 {
+    right: 5rem;
+    top: 8rem;
+    z-index: -999999;
+}
+
+.shape5 {
+    left: 5rem;
+    bottom: 4rem;
+    z-index: -999999;
+}
+
+
+
 /***************STYLING FOR PROJECT SECTION STARTS*************/
 #projects {
     padding: 6rem 0;
@@ -438,6 +477,7 @@ footer span {
 
 @media screen and (min-width: 1400px) {
     .nav-top,
+    header,
     main,
     footer {
         max-width: 1330px;
