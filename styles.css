@@ -183,12 +183,13 @@ p {
     border-bottom: 2px solid #fff;
 }
 
-span {
+.stack span {
     border: 1px solid #ccc;
     color: #ccc;
     border-radius: 50px;
     padding: .5rem 1rem;
-    /*margin-right: .5rem;*/
+    display: inline-block;
+    margin-bottom: 1rem;
 }
 
 .stack {
@@ -202,12 +203,26 @@ span {
     height: auto;
 }
 
+
+/***************STYLING FOR 2nd ABUOT SECTION STARTS*************/
 .about2 {
     font-size: 1.8rem;
     line-height: 1.4;
     margin: 1rem 0 9rem;
 }
 
+#hashnode a{
+    color: #2962ff;
+}
+
+#netflix {
+    color: #E50914;
+}
+
+#youtube {
+    color: #FF0000;
+}
+/***************STYLING FOR FOOTER STARTS*************/
 footer {
     padding: 0 1.5rem 2rem;
     justify-content: center;

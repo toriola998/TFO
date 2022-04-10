@@ -28,7 +28,7 @@
     <body>
         <div class="flex nav-top">
             <p class="logo">TORIOLA<br>
-                <span></span>FAIDAT</p>
+                FAIDAT</p>
             <nav role="navigation">
                 <button class="menu" 
                     id="hamburger" 
@@ -56,14 +56,14 @@
                         <li>
                             <a href="#contact">Contact</a></li>
                         <li>
-                            <a href="https://docs.google.com/document/d/1UK0HRcDu9YeHGYEbUlTtUKwgMIJJ_4yN9SAq3ZZTNJY/edit?usp=sharing">Resume</a></li>
+                            <a href="https://docs.google.com/document/d/1UK0HRcDu9YeHGYEbUlTtUKwgMIJJ_4yN9SAq3ZZTNJY/edit?usp=sharing" target="_blank">Resume</a></li>
                     </ul>
                 </div>
             </nav>
         </div>
         <header role="banner">
             <div class="hero flex">
-                <h1>FRONTEND<br> DEVELOPER</h1>
+                <h1>FRONTEND <br> DEVELOPER</h1>
             </div>
             <div class="social-media">
                 <a href="https://web.facebook.com/toriolafaidat.olabisi" target="_blank">
@@ -167,10 +167,12 @@
                 </div>-->
             </section>
 
-            <div>
-                <p class="about2">While I'm not coding, I spent time on Youtube watching educational stuffs 
-                    or easing my eyes out on Netflix. 
-                   </p>
+            <div id="about2">
+                <p class="about2">While I'm not coding, I write technical contents on
+                    <span id="hashnode"><a href="https://toriola.hashnode.dev/" target="_blank">hashnode.</a></span> 
+                    I also spend time on <span id="youtube">Youtube</span> watching educational stuffs 
+                    or easing my eyes out on <span id="netflix">Netflix.</span>
+                </p>
             </div>
         </main>
         <footer role="contentinfo">
@@ -192,6 +194,7 @@
                 <p class="copyright">Copyright &copy;<span id="date">2022</span> Toriola Faidat Olabisi</p>
             </div>
         </footer>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/gsap.min.js"></script>
         <script src="script.js"></script>
     </body>
 </html>
