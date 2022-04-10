@@ -32,6 +32,8 @@ navLists.forEach(link => {
 const date = document.getElementById("date");
 date.innerHTML = new Date().getFullYear();
 
+
+//GSAP ANIMATIONS
 gsap.to('.shape1', { rotation: 360, duration: 5, repeat: -1, ease: 'linear', })
 gsap.to('.shape2', { x: 100, rotation: 360, duration: 10, repeat: -1, ease: 'bounce-in' })
 gsap.to('.shape3', { y: 100, rotation: 360, duration: 7, repeat: -1, ease: 'bounce-in' })
