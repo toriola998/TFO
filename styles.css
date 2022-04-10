@@ -121,6 +121,11 @@ p {
     line-height: 1.7;   
 }
 
+#skills {
+    color: #fff;
+}
+
+/***************STYLING FOR PROJECT SECTION STARTS*************/
 #projects {
     padding: 6rem 0;
 }
@@ -222,6 +227,7 @@ p {
 #youtube {
     color: #FF0000;
 }
+
 /***************STYLING FOR FOOTER STARTS*************/
 footer {
     padding: 0 1.5rem 2rem;
