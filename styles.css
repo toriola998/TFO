@@ -60,8 +60,8 @@ main {
     justify-content: space-between;
 }
 
+/**********STYLES FOR MENU-BAR STARTS**********/
 nav ul {
-    /*display: none;*/
     list-style-type: none;
 }
 
@@ -103,6 +103,20 @@ nav ul li a {
     top: 2rem;
 }
 
+button {
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: 0;
+    border: 0;
+}
+
+/**********STYLES FOR HEADER STARTS**************/
+.hero {
+    height: 95vh;
+}
+
 .social-media {
     display: none;
 }
@@ -110,10 +124,6 @@ nav ul li a {
 .logo {
     line-height: 1;
     color: #fff;
-}
-
-.hero {
-    height: 95vh;
 }
 
 h1 {
