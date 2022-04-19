@@ -160,38 +160,12 @@ header {
     position: relative;
 }
 
-.shape {
-    position: absolute;
-    z-index: -999999;
-}
-
-.shape1 {
-    left: 2rem;
-    top: 7rem;
-}
-
-.shape2 {
-    left: 9rem;
-    top: 27rem;
-}
-
-.shape3 {
-    right: 23rem;
-    top: 5rem;
-}
-
-.shape4 {
-    right: 5rem;
-    top: 8rem;
-}
-
-.shape5 {
-    left: -3rem;
-    bottom: -2rem;
-}
-
 #about {
     scroll-margin-top: 3rem;
+}
+
+.shape {
+    display: none;
 }
 /***************STYLING FOR PROJECT SECTION STARTS*************/
 #projects {
@@ -414,13 +388,31 @@ footer span {
         padding: 0 6rem;
     }
 
+    .shape {
+        position: absolute;
+        z-index: -999999;
+        display: block;
+    }
+    
+    .shape1 {
+        left: 2rem;
+        top: 7rem;
+    }
+    
+    .shape4 {
+        right: 5rem;
+        top: 8rem;
+    }
+
     .shape2 {
         right: 15rem;
         left: initial;
+        bottom: 8rem;
     }
     
     .shape3 {
         right: 40rem;
+        top: 12rem;
     }
 
     .shape5 {
