@@ -399,11 +399,6 @@ footer span {
         top: 7rem;
     }
     
-    .shape4 {
-        right: 5rem;
-        top: 8rem;
-    }
-
     .shape2 {
         right: 15rem;
         left: initial;
@@ -413,6 +408,11 @@ footer span {
     .shape3 {
         right: 40rem;
         top: 12rem;
+    }
+
+    .shape4 {
+        right: 5rem;
+        top: 8rem;
     }
 
     .shape5 {
