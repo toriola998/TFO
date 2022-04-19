@@ -249,7 +249,16 @@ header {
     width: 90%;
     height: auto;
 }
-/***************STYLING FOR 2nd ABUOT SECTION STARTS*************/
+
+.see-more {
+    margin-top: 3rem;
+    text-align: center;
+    color: #666666;
+    font-size: 2.3rem;
+    display: block;
+}
+
+/***************STYLING FOR 2nd ABOUT SECTION STARTS*************/
 .about2 {
     font-size: 1.8rem;
     line-height: 1.4;
@@ -463,9 +472,14 @@ footer span {
         top: 6rem;
     }
 
+    .see-more {
+        margin-top: 10rem;
+        font-size: 3.5rem;
+    }
+
     .about2 {
         font-size: 2.5rem;
-        margin: 15rem 0;
+        margin: 5rem 0 15rem;
         padding:0 3rem;
     }
 
