@@ -250,12 +250,20 @@ header {
     height: auto;
 }
 
-.see-more {
+.see-more-wrap {
+    display: flex;
+    justify-content: center;
     margin-top: 3rem;
-    text-align: center;
+}
+
+.see-more {
     color: #666666;
     font-size: 2.3rem;
-    display: block;
+    transition: all .2s ease;
+}
+
+.see-more:hover {
+    color: #ccc;
 }
 
 /***************STYLING FOR 2nd ABOUT SECTION STARTS*************/
@@ -472,8 +480,11 @@ footer span {
         top: 6rem;
     }
 
-    .see-more {
+    .see-more-wrap {
         margin-top: 10rem;
+    }
+    
+    .see-more { 
         font-size: 3.5rem;
     }
 
