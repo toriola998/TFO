@@ -114,7 +114,7 @@ button {
 
 /**********STYLES FOR HEADER STARTS**************/
 .hero {
-    height: 95vh;
+    height: 88vh;
 }
 
 .social-media {
@@ -409,6 +409,10 @@ footer span {
     .nav-top,
     header{
         padding: 0 6rem;
+    }
+
+    .hero {
+        height: 90vh;
     }
 
     .shape {
