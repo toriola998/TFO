@@ -13,4 +13,5 @@
 - CSS Grid
 - Mobile-first workflow
 - Javascript
+- GSAP Animations
 
