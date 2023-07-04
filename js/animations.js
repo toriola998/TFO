@@ -8,7 +8,7 @@ export default function animations () {
 
 
     //remove loader spin after 3s
-    setTimeout(removeLoader, 1000)
+    setTimeout(removeLoader, 3000)
 
     function removeLoader() {
     const loader = document.querySelector('.preloader');
