@@ -2,12 +2,22 @@ const portfolio = [
     {
         'coverImage': 'audiophile.png',
         'name': 'Audiophile E-commerce',
-        'description': 'A multi-page website for a company that deal with portable audio equipment.',
+        'description': 'A multi-page web application for a company that deal with portable audio equipment.',
         'projectLink': 'https://audiophile-v2.netlify.app/',
         'projectStack': [ 'Nuxt3', 'Composition API', 'Pinia', 'Tailwind' ],
         'backgroundClass': 'bg2',
         'linkToCode': 'https://github.com/toriola998/Audiophile-ecommerce-v2',
-        'linkLabel': 'Link to Audiophile ecommerce website'
+        'linkLabel': 'Link to Audiophile ecommerce web app'
+    },
+    {
+        'coverImage': 'designo.png',
+        'name': 'Designo Multipage website',
+        'description': 'A multi-page website for a branding agency',
+        'projectLink': 'https://designo11.netlify.app/',
+        'projectStack':  [ 'VueJs', 'Vue Router', 'VueX' ],
+        'backgroundClass': 'bg5',
+        'linkToCode': 'https://github.com/toriola998/Designo-multi-page-website',
+        'linkLabel': 'Link to designo multipage website'
     },
     {
         'coverImage': 'ARCH11.png',
@@ -29,6 +39,7 @@ const portfolio = [
         'linkToCode': 'https://github.com/toriola998/Grandeur-tailors',
         'linkLabel': 'Link to Granduer tailors website'
     },
+
     {
         'coverImage': 'CEEPLUS11.png',
         'name': 'CEEPLUS Media',
