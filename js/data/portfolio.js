@@ -6,6 +6,7 @@ const portfolio = [
         'projectLink': 'https://audiophile-v2.netlify.app/',
         'projectStack': [ 'Nuxt3', 'Composition API', 'Pinia', 'Tailwind' ],
         'backgroundClass': 'bg2',
+        'linkToCode': 'https://github.com/toriola998/Audiophile-ecommerce-v2',
         'linkLabel': 'Link to Audiophile ecommerce website'
     },
     {
@@ -15,6 +16,7 @@ const portfolio = [
         'projectLink': 'https://arch-studio-site.netlify.app/',
         'projectStack': [ 'VueJs', 'Vue Router', 'VueX' ],
         'backgroundClass': 'bg4',
+        'linkToCode': 'https://github.com/toriola998/Arch-studio',
         'linkLabel': 'Link to Arch Studio website'
     },
     {
@@ -24,6 +26,7 @@ const portfolio = [
         'projectLink': 'http://grandeurtailors.com/',
         'projectStack': [ 'HTML', 'CSS', 'Javascript' ],
         'backgroundClass': 'bg1',
+        'linkToCode': 'https://github.com/toriola998/Grandeur-tailors',
         'linkLabel': 'Link to Granduer tailors website'
     },
     {
@@ -33,6 +36,7 @@ const portfolio = [
         'projectLink': 'https://ceeplus-media-v2.netlify.app/',
         'projectStack': [ 'HTML', 'CSS/Boostrap', 'Javascript', 'GSAP/AOS' ],
         'backgroundClass': 'bg7',
+        'linkToCode': 'https://github.com/toriola998/CeePlus-Media-v2',
         'linkLabel': 'Link to CeePlus website'
     },
    
@@ -43,6 +47,7 @@ const portfolio = [
         'projectLink': 'https://yannal-restaurant.netlify.app/',
         'projectStack': [ 'HTML', 'CSS', 'Javascript' ],
         'backgroundClass': 'bg6',
+        'linkToCode': 'https://github.com/toriola998/Yannal-Restaurant',
         'linkLabel': 'Link to the yannal restaurant landing page'
     },
     {
@@ -52,6 +57,7 @@ const portfolio = [
         'projectLink': 'https://mistrium.netlify.app/',
         'projectStack': [ 'HTML', 'CSS', 'Javascript' ],
         'backgroundClass': 'bg3',
+        'linkToCode': 'https://github.com/toriola998/Mistrium',
         'linkLabel': 'Link to the mistrium landing page'
     }
 ]
