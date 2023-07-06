@@ -14,7 +14,7 @@ const portfolio = [
         'name': 'Designo Multipage website',
         'description': 'A multi-page website for a branding agency',
         'projectLink': 'https://designo11.netlify.app/',
-        'projectStack':  [ 'VueJs', 'Vue Router', 'VueX' ],
+        'projectStack':  [ 'VueJs', 'Vue Router', 'SCSS', 'VueX' ],
         'backgroundClass': 'bg5',
         'linkToCode': 'https://github.com/toriola998/Designo-multi-page-website',
         'linkLabel': 'Link to designo multipage website'
