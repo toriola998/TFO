@@ -292,7 +292,7 @@ header {
     border-top: 1px solid #ccc;
     padding-top: 2rem;
     display: flex;
-    column-gap: 1rem;
+    column-gap: .5rem;
     flex-wrap: wrap;
 }
 
