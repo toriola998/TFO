@@ -10,7 +10,7 @@
 }
 
 .preloader {
-    background-color: #000;
+    background-color: #212529;
     justify-content: center;
     position: fixed;
     top: 0;
@@ -23,16 +23,16 @@
 }
 
 .loader {
-    border: 10px solid #f3f3f3;
+    border: 7px solid #3e92cc;
     border-radius: 50%;
-    border-top: 10px solid #ffb703; 
-    border-right: 10px solid #e01a4f;
-    border-bottom: 10px solid #3e92cc;
-    border-left: 10px solid pink;
-    width: 80px;
-    height: 80px;
-    -webkit-animation: spin 2s linear infinite;
-    animation: spin 2s linear infinite;
+    border-top: 7px solid #3e92cc; 
+    border-right: 7px solid transparent;
+    border-bottom: 7px solid #3e92cc;
+    border-left: 7px solid #3e92cc;
+    width: 70px;
+    height: 70px;
+    -webkit-animation:0 spin .5s linear infinite;
+    animation: spin .5s linear infinite;
   }
   
   @-webkit-keyframes spin {

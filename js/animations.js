@@ -12,7 +12,7 @@ export default function animations () {
 
     function removeLoader() {
     const loader = document.querySelector('.preloader');
-    loader.style.display = 'none';
-    //loader.style.animation = "example 2s ease"
+     loader.style.display = 'none';
+    loader.style.animation = "example 2s ease"
     }
 }
