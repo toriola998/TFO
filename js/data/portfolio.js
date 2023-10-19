@@ -1,5 +1,15 @@
 const portfolio = [
     {
+        'coverImage': 'alt-connect.png',
+        'name': 'Alt Connect',
+        'description': 'A social funds collection platform where you can join communities (religious and social) that relate with your values.',
+        'projectLink': 'https://altconnect.ng/',
+        'projectStack': [ 'Vue', 'Vuetify', 'VueX'],
+        'backgroundClass': 'bg0',
+        'linkToCode': '',
+        'linkLabel': 'Link to Alt Connect web app'
+    },
+    {
         'coverImage': 'audiophile.png',
         'name': 'Audiophile E-commerce',
         'description': 'A multi-page web application for a company that deal with portable audio equipment.',

@@ -228,6 +228,10 @@ header {
     margin-bottom: 6rem;
 }
 
+.bg0 {
+    background-color: #c9a979;
+}
+
 .bg1 {
     background-color: #53b3cb;
 }

@@ -20,12 +20,13 @@ export default function portfolio() {
                 Live Site Url
             </a>
            
-            <a href="${item.linkToCode}" 
-                target="_blank" 
-                aria-label="Github link to ${item.name}"
-                >
-                <img src="./assets/github-mark-white.png" alt="" role="presentation" height="25" width="25"/>
-            </a>
+            ${item.linkToCode ? // Check if linkToCode is available
+                `<a href="${item.linkToCode}" 
+                    target="_blank" 
+                    aria-label="Github link to ${item.name}">
+                    <img src="./assets/github-mark-white.png" alt="" role="presentation" height="25" width="25"/>
+                </a>` : '' // Empty string if linkToCode is not available
+            }
             </div>
             <p class="stack">
                 ${item.projectStack.map((technology) => `<span>${technology}</span>`).join("")}
