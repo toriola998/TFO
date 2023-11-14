@@ -260,6 +260,10 @@ header {
     background-color: #ffb703;
 }
 
+.bg8 {
+    background-color: #9f87ff;
+}
+
 .mail,
 .project-name,
 .project-link {
@@ -533,9 +537,7 @@ footer span {
         margin-bottom: initial;
     }
     
-    .grid-container > div:nth-child(2),
-    .grid-container > div:nth-child(4),
-    .grid-container > div:nth-child(6) {
+    .grid-container > div:nth-child(even) {
         position: relative;
         top: 6rem;
     }

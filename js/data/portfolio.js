@@ -10,6 +10,16 @@ const portfolio = [
         'linkLabel': 'Link to Alt Connect web app'
     },
     {
+        'coverImage': 'devlinks.png',
+        'name': 'Devlinks',
+        'description': 'A fullstack link-sharing app (mini-linktree) for developers.',
+        'projectLink': 'https://dev-links-share.netlify.app/',
+        'projectStack': [ 'ReactJS', 'TailwindCSS', 'SCSS', 'Redux toolkit', 'Supabase'],
+        'backgroundClass': 'bg8',
+        'linkToCode': 'https://github.com/toriola998/Dev-links',
+        'linkLabel': 'Link to devlinks'
+    },
+    {
         'coverImage': 'audiophile.png',
         'name': 'Audiophile E-commerce',
         'description': 'A multi-page web application for a company that deal with portable audio equipment.',
