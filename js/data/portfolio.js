@@ -4,10 +4,20 @@ const portfolio = [
         'name': 'Alt Connect',
         'description': 'A social funds collection platform where you can join communities (religious and social) that relate with your values.',
         'projectLink': 'https://altconnect.ng/',
-        'projectStack': [ 'Vue', 'Vuetify', 'VueX'],
+        'projectStack': [ 'Vue', 'Vuetify', 'Tanstack/vue-query', 'VueX'],
         'backgroundClass': 'bg0',
         'linkToCode': '',
         'linkLabel': 'Link to Alt Connect web app'
+    },
+    {
+        'coverImage': 'audiophile.png',
+        'name': 'Audiophile E-commerce',
+        'description': 'A multi-page web application for a company that deal with portable audio equipment.',
+        'projectLink': 'https://audiophile-v2.netlify.app/',
+        'projectStack': [ 'Nuxt3', 'Composition API', 'Pinia', 'Tailwind' ],
+        'backgroundClass': 'bg2',
+        'linkToCode': 'https://github.com/toriola998/Audiophile-ecommerce-v2',
+        'linkLabel': 'Link to Audiophile ecommerce web app'
     },
     {
         'coverImage': 'devlinks.png',
@@ -20,14 +30,14 @@ const portfolio = [
         'linkLabel': 'Link to devlinks'
     },
     {
-        'coverImage': 'audiophile.png',
-        'name': 'Audiophile E-commerce',
-        'description': 'A multi-page web application for a company that deal with portable audio equipment.',
-        'projectLink': 'https://audiophile-v2.netlify.app/',
-        'projectStack': [ 'Nuxt3', 'Composition API', 'Pinia', 'Tailwind' ],
-        'backgroundClass': 'bg2',
-        'linkToCode': 'https://github.com/toriola998/Audiophile-ecommerce-v2',
-        'linkLabel': 'Link to Audiophile ecommerce web app'
+        'coverImage': 'tech-career.png',
+        'name': 'Tech Careers',
+        'description': 'A educative website for people who want to start a career in tech',
+        'projectLink': 'https://tech-career.netlify.app/',
+        'projectStack': [ 'ReactJS', 'TailwindCSS', 'SCSS',],
+        'backgroundClass': 'bg9',
+        'linkToCode': 'https://github.com/toriola998/Tech-Career-v2',
+        'linkLabel': 'Link to Tech careers'
     },
     {
         'coverImage': 'designo.png',
