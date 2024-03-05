@@ -20,6 +20,16 @@ const portfolio = [
         'linkLabel': 'Link to Audiophile ecommerce web app'
     },
     {
+        'coverImage': 'new-varv.png',
+        'name': 'Varv',
+        'description': 'A fullstack internal tool for a tailor house, used for managing customers & orders.',
+        'projectLink': 'https://drive.google.com/file/d/1APRu6WLNtuGsJd0kFj1yv8lrbongVS_5/view?usp=sharing',
+        'projectStack': [ 'ReactJS', 'TailwindCSS', 'NodeJS', 'MongoDB', 'Express'],
+        'backgroundClass': 'bg-varv',
+        'linkToCode': '',
+        'linkLabel': 'Link to devlinks'
+    },
+    {
         'coverImage': 'devlinks.png',
         'name': 'Devlinks',
         'description': 'A fullstack link-sharing app (mini-linktree) for developers.',
@@ -28,6 +38,16 @@ const portfolio = [
         'backgroundClass': 'bg8',
         'linkToCode': 'https://github.com/toriola998/Dev-links',
         'linkLabel': 'Link to devlinks'
+    },
+    {
+        'coverImage': 'grandeur.png',
+        'name': 'Grandeur Tailors ',
+        'description': 'A multi-page website for a fashion design brand.',
+        'projectLink': 'http://grandeurtailors.com/',
+        'projectStack': [ 'ReactJs', 'TailwindCSS', 'Redux Toolkit', 'Imagekit' ],
+        'backgroundClass': 'bg-grandeur-website',
+        'linkToCode': '',
+        'linkLabel': 'Link to Granduer tailors website'
     },
     {
         'coverImage': 'tech-career.png',
@@ -50,7 +70,7 @@ const portfolio = [
         'linkLabel': 'Link to designo multipage website'
     },
     {
-        'coverImage': 'ARCH11.png',
+        'coverImage': 'arch-studio.png',
         'name': 'Arch Studio',
         'description': 'A multi-page website for a company that speciliazes in creating urban design and structures.',
         'projectLink': 'https://arch-studio-site.netlify.app/',
@@ -59,17 +79,6 @@ const portfolio = [
         'linkToCode': 'https://github.com/toriola998/Arch-studio',
         'linkLabel': 'Link to Arch Studio website'
     },
-    {
-        'coverImage': 'grandeur.png',
-        'name': 'Grandeur Tailors ',
-        'description': 'A multi-page website for a fashion design brand.',
-        'projectLink': 'http://grandeurtailors.com/',
-        'projectStack': [ 'HTML', 'CSS', 'Javascript' ],
-        'backgroundClass': 'bg1',
-        'linkToCode': 'https://github.com/toriola998/Grandeur-tailors',
-        'linkLabel': 'Link to Granduer tailors website'
-    },
-
     {
         'coverImage': 'CEEPLUS11.png',
         'name': 'CEEPLUS Media',
@@ -92,7 +101,7 @@ const portfolio = [
         'linkLabel': 'Link to the yannal restaurant landing page'
     },
     {
-        'coverImage': 'MISTRIUM11.png',
+        'coverImage': 'mistrium.png',
         'name': 'Mistrium',
         'description': 'A landing page for a interior shop.',
         'projectLink': 'https://mistrium.netlify.app/',

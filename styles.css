@@ -232,8 +232,8 @@ header {
     background-color: #c9a979;
 }
 
-.bg1 {
-    background-color: #53b3cb;
+.bg-grandeur-website {
+    background-color: #C6AB8F;
 }
 
 .bg2 {
@@ -262,6 +262,10 @@ header {
 
 .bg8 {
     background-color: #9f87ff;
+}
+
+.bg-varv{
+    background-color: #D4BEA7;
 }
 
 .bg9 {
