@@ -2,7 +2,8 @@ const portfolio = [
     {
         'coverImage': 'alt-connect.png',
         'name': 'Alt Connect',
-        'description': 'A social funds collection platform where you can join communities (religious and social) that relate with your values.',
+        'description': `A social funds collection platform where you can join communities 
+        (religious and social) that relate with your values, pay utility bills and transfer/receive funds`,
         'projectLink': 'https://altconnect.ng/',
         'projectStack': [ 'Vue', 'Vuetify', 'Tanstack/vue-query', 'VueX'],
         'backgroundClass': 'bg0',
@@ -12,7 +13,7 @@ const portfolio = [
     {
         'coverImage': 'audiophile.png',
         'name': 'Audiophile E-commerce',
-        'description': 'A multi-page web application for a company that deal with portable audio equipment.',
+        'description': 'A multi-page web application for a company that deals with portable audio equipment.',
         'projectLink': 'https://audiophile-v2.netlify.app/',
         'projectStack': [ 'Nuxt3', 'Composition API', 'Pinia', 'Tailwind' ],
         'backgroundClass': 'bg2',
@@ -22,7 +23,7 @@ const portfolio = [
     {
         'coverImage': 'new-varv.png',
         'name': 'Varv',
-        'description': 'A fullstack internal tool for a tailor house, used for managing customers & orders.',
+        'description': `A fullstack application, which is an internal tool for a tailor house, used for managing customers & orders.`,
         'projectLink': 'https://drive.google.com/file/d/1APRu6WLNtuGsJd0kFj1yv8lrbongVS_5/view?usp=sharing',
         'projectStack': [ 'ReactJS', 'TailwindCSS', 'NodeJS', 'MongoDB', 'Express'],
         'backgroundClass': 'bg-varv',
@@ -32,7 +33,7 @@ const portfolio = [
     {
         'coverImage': 'devlinks.png',
         'name': 'Devlinks',
-        'description': 'A fullstack link-sharing app (mini-linktree) for developers.',
+        'description': 'A fullstack application, used in sharing links (mini linktree) for developers.',
         'projectLink': 'https://dev-links-share.netlify.app/',
         'projectStack': [ 'ReactJS', 'TailwindCSS', 'SCSS', 'Redux toolkit', 'Supabase'],
         'backgroundClass': 'bg8',
