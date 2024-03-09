@@ -34,8 +34,8 @@ const portfolio = [
         'coverImage': 'devlinks.png',
         'name': 'Devlinks',
         'description': 'A fullstack application, used in sharing links (mini linktree) for developers.',
-        'projectLink': 'https://dev-links-share.netlify.app/',
-        'projectStack': [ 'ReactJS', 'TailwindCSS', 'SCSS', 'Redux toolkit', 'Supabase'],
+        'projectLink': 'https://dev-links-sharing.netlify.app/',
+        'projectStack': [ 'ReactJS', 'Redux Toolkit', 'TailwindCSS', 'NodeJS', 'MongoDB', 'Express' ],
         'backgroundClass': 'bg8',
         'linkToCode': 'https://github.com/toriola998/Dev-links',
         'linkLabel': 'Link to devlinks'
