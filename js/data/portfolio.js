@@ -33,6 +33,7 @@ const portfolio = [
         projectLink: '',
         projectStack: [
             'ReactJS',
+            'Tanstack/React-query',
             'TailwindCSS',
             'NodeJS',
             'MongoDB',

@@ -8,13 +8,13 @@ document.addEventListener('DOMContentLoaded', () => {
         const demoNote = demoNotes[index];
 
         demoBtn.addEventListener('click', () => {
-            console.log('cliked')
+            console.log('cliked');
             demoNote.classList.toggle('show-wrap');
         });
 
         // Add hover event listeners
         demoBtn.addEventListener('mouseover', () => {
-            console.log('cliked')
+            console.log('cliked');
             demoNote.classList.add('show-wrap');
         });
         demoBtn.addEventListener('mouseout', () => {
