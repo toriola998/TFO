@@ -8,7 +8,7 @@ const portfolio = [
         projectStack: ['Vue', 'Vuetify', 'Tanstack/vue-query', 'VueX'],
         backgroundClass: 'bg0',
         linkToCode: '',
-        demoLink: 'jjj',
+        demoLink: '',
         demoDescription:
             'You can watch the demo to explore the features of the entire application without the need to authenticate.',
         linkLabel: 'Link to Alt Connect web app',
