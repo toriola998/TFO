@@ -1,0 +1,23 @@
+{
+    "name": "tfo",
+    "version": "1.0.0",
+    "description": "![](./assets/screenshot.png)",
+    "main": "index.html",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "lint": "npx prettier --write ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/toriola998/TFO.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/toriola998/TFO/issues"
+    },
+    "homepage": "https://github.com/toriola998/TFO#readme",
+    "devDependencies": {
+        "prettier": "^3.3.3"
+    }
+}

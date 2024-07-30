@@ -1,17 +1,19 @@
 # Toriola Faidat Portfolio website
 
 ## Screenshot
+
 ![](./assets/screenshot.png)
 
 ## Links
-- Live Site URL: [https://www.toriola.xyz/](https://www.toriola.xyz/)
+
+-   Live Site URL: [https://www.toriola.xyz/](https://www.toriola.xyz/)
 
 ## Built with
-- HTML
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-- Javascript
-- GSAP Animations
 
+-   HTML
+-   CSS custom properties
+-   Flexbox
+-   CSS Grid
+-   Mobile-first workflow
+-   Javascript
+-   GSAP Animations
