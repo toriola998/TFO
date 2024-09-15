@@ -14,6 +14,21 @@ const portfolio = [
         linkLabel: 'Link to Alt Connect web app',
     },
     {
+        coverImage: 'waste-banc1.png',
+        name: 'Waste Banc',
+        description: `A role-based access control admin portal for Waste banc, a platform that manages
+         recycled waste collection. Admin can initiate & approve requests, manage agents, create waste categories etc`,
+        projectLink: 'https://admin.wastebanc.ng/',
+        projectStack: ['React', 'Tailwind', 'Tanstack/react-query'],
+        backgroundClass: 'bg-waste-website',
+        linkToCode: '',
+        demoLink:
+            'https://drive.google.com/file/d/1ETvT1Xr4C1sNJyVRsl5NmRmyq8MDSPby/view',
+        demoDescription:
+            'You can watch the demo to explore the features of the entire application without the need to authenticate.',
+        linkLabel: 'Link to Alt Connect web app',
+    },
+    {
         coverImage: 'audiophile.png',
         name: 'Audiophile E-commerce',
         description:
