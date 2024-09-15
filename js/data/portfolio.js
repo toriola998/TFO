@@ -79,6 +79,19 @@ const portfolio = [
         linkToCode: '',
         demoLink: '',
         demoDescription: '',
+        linkLabel: 'Link to Grandeur tailors website',
+    },
+    {
+        coverImage: 'bullet-point.png',
+        name: 'BulletPoint Freelancing',
+        description:
+            'A multi-page website for a resume and career coaching agency.',
+        projectLink: 'https://bulletpointfreelancing.com/',
+        projectStack: ['ReactJs', 'TailwindCSS', 'SCSS'],
+        backgroundClass: 'bg-bullet-website',
+        linkToCode: '',
+        demoLink: '',
+        demoDescription: '',
         linkLabel: 'Link to Granduer tailors website',
     },
     {
