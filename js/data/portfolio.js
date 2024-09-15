@@ -28,6 +28,7 @@ const portfolio = [
             'You can watch the demo to explore the features of the entire application without the need to authenticate.',
         linkLabel: 'Link to Alt Connect web app',
     },
+
     {
         coverImage: 'audiophile.png',
         name: 'Audiophile E-commerce',
@@ -58,9 +59,25 @@ const portfolio = [
         linkToCode: '',
         demoLink:
             'https://drive.google.com/file/d/1APRu6WLNtuGsJd0kFj1yv8lrbongVS_5/view?usp=sharing',
-        demoDescription:
-            'Live URL and source code are unavailable due to internal use at Grandeur Tailors. Watch the demo to explore its features.',
-        linkLabel: 'Link to devlinks',
+        demoDescription: `Live URL and source code are unavailable due to internal use at Grandeur Tailors. 
+            Watch the demo to explore its features.`,
+        linkLabel: 'Link to Varv app',
+    },
+    {
+        coverImage: 'nasfat2.png',
+        name: 'NASFAT',
+        description: `A enumeration platform for NASFAT, a Nigerian Muslim prayer group with
+        over 10 million members. Users can self-onboard, NASFAT agents can also onboard members, with 
+        the system generating a bank account for each.`,
+        projectLink: 'https://nasfat.altbank.ng/',
+        projectStack: ['React', 'Tanstack/React-query', 'TailwindCSS'],
+        backgroundClass: 'bg202',
+        demoLink:
+            'https://drive.google.com/file/d/1l70A1-ff6fdL9oKwRjJvQHN5KuHdFxvb/view?usp=sharing',
+        demoDescription: `You can watch the demo to explore the features of the 
+        app without the need to authenticate. Some features are not demoed due to Security`,
+        linkToCode: '',
+        linkLabel: 'Link to NASFAT web app',
     },
     {
         coverImage: 'devlinks.png',
@@ -107,7 +124,7 @@ const portfolio = [
         linkToCode: '',
         demoLink: '',
         demoDescription: '',
-        linkLabel: 'Link to Granduer tailors website',
+        linkLabel: 'Link to BulletPoint Freelancing website',
     },
     {
         coverImage: 'tech-career.png',
