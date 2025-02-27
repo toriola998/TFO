@@ -14,6 +14,19 @@ const portfolio = [
         linkLabel: 'Link to Alt Connect web app',
     },
     {
+        coverImage: 'wagmi-connectors.png',
+        name: 'Wallet Connector',
+        description: `An app that allows users to connect their wallet, view its address and balance, 
+        sign messages, switch networks, disconnect, and re-sign when the wallet changes.`,
+        projectLink: 'https://faidat-wagmi.netlify.app/',
+        projectStack: ['React', 'Typescript', 'Tailwind', 'Wagmi', 'Phantom Connector', 'Web3'],
+        backgroundClass: 'bg-bullet-website',
+        linkToCode: '',
+        demoLink: '',
+        demoDescription:'', 
+        linkLabel: 'Link to Wagmi web app',
+    },
+    {
         coverImage: 'waste-banc1.png',
         name: 'Waste Banc',
         description: `A role-based access control admin portal for Waste banc, a platform that manages
